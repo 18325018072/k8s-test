@@ -1,0 +1,16 @@
+server:
+  port: 9060
+spring:
+  application:
+    name: store
+  datasource:
+    url: jdbc:mysql://192.168.156.21:3308/shop?serverTimezone=Asia/Shanghai&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+#    sentinel:
+#      transport:
+#        dashboard: localhost:9010
