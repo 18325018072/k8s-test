@@ -11,6 +11,7 @@ import org.springframework.http.converter.HttpMessageConverter;
 
 import java.util.stream.Collectors;
 
+//2
 @Configuration
 @EnableFeignClients(defaultConfiguration = FeignClientsConfiguration.class, basePackages = "com.test.order.feign")
 public class FeignConfig {
